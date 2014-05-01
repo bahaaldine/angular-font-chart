@@ -1,7 +1,7 @@
 {
     "name": "font-chart",
     "version": "0.0.1",
-    "main": "dist/font-chart.js",
+    "main": "font-chart.js",
     "license": "MIT",
     "ignore": [
         "source",
