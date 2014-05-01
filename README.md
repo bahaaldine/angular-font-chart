@@ -1,4 +1,4 @@
 ngFontChart
 ===========
 
-Angularjs Font chart based on Font Awesome
+Angularjs font chart based on Font Awesome http://fortawesome.github.io/Font-Awesome/
