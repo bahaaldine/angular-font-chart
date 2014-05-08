@@ -16,8 +16,10 @@
         "README.md"
     ],
     "dependencies": {
-        "font-awesome": "4.0.x"
+        "font-awesome": "4.0.x",
+        "odometer": "0.4.x"
     },
     "devDependencies": {
     }
 }
+
