@@ -11,17 +11,39 @@ fc.directive('ngFontChart', function() {
 	    	value: '@',
 	    	font: '@',
 	    	startColor: '@',
-	    	endColor: '@'
+	    	endColor: '@',
+	    	extraClass: '&'
 	    },
-	    template: '<div class="ngfontchart icon background-transition-slow {{font}}"></div>',
+	    template: '<div><div class="ngfontchart icon background-transition-slow {{font}}"></div><odometer class="value" value="value"></odometer></div>',
 		link: function(scope, element, attrs) {
-			element.css('background-position','0px '+scope.value+'%')
-			element.css('background-image', 'linear-gradient(to top, '+scope.startColor+' 0px, '+scope.startColor+' 50%, '+scope.endColor+' 50%, '+scope.endColor+' 100% )')
+			angular.element(element.children()[0]).css('background-position','0px '+scope.value+'%')
+			angular.element(element.children()[0]).css('background-image', 'linear-gradient(to top, '+scope.startColor+' 0px, '+scope.startColor+' 50%, '+scope.endColor+' 50%, '+scope.endColor+' 100% )')
+
+			angular.element(element.children()[1]).css('background', scope.startColor)
+			angular.element(element.children()[1]).css('color', '#ffffff')
+
 			scope.$watch('value', function(value) {
 				if ( value != null ) {
-					element.css('background-position','0px '+value+'%')
+					angular.element(element.children()[0]).css('background-position','0px '+value+'%')
 				}
 			});
 		}
 	}
+});
+fc.directive('odometer', function () {
+  return {
+    restrict: 'E',
+    scope : {
+      endValue : '=value'
+    },
+    link: function(scope, element) {
+      var od = new Odometer({
+          el : element[0],
+          value : 0
+      });
+      scope.$watch('endValue', function() {
+        od.update(scope.endValue);
+      });
+    }
+  };
 });
