@@ -1,7 +1,7 @@
 {
-    "name": "font-chart",
+    "name": "angular-font-chart",
     "version": "0.0.5",
-    "main": "dist/font-chart.js",
+    "main": "dist/angular-font-chart.js",
     "license": "MIT",
     "ignore": [
         "source",
