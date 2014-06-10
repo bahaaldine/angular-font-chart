@@ -5,6 +5,10 @@ angular-font-chart lets you create awesome charts based on:
 - Font Awesome http://fortawesome.github.io/Font-Awesome/
 - Hubsopt odometer http://github.hubspot.com/odometer/
 
+# Demo page
+
+http://bahaaldine.github.io/angular-font-chart
+
 # Installation
 
 Install depedencies using bower: 
