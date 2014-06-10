@@ -39,11 +39,27 @@ Add ngFontChart module to you application
 	...
 ```
 
-
 # Usage
 
-TODO
+All you need is to place a ngFontChart with its attribute in your view like the following piece of code:
+```javascript
+	...
+		<ng-font-chart 
+	      font="fa facebook"
+	      value="23"
+	      start-color="#3b5998"
+	      end-color="rgba(255,255,255, 0.8)">
+	    </ng-font-chart> 
+	...
+```
+`value`: the actual chart value, can be dynamically set through controller scope variable, e.g. : `value="{{myScopeVariable}}"`. The value can also be refresh, the transition from one value to the other will be automatically done.
+
+`start-color`: the start-color is the chart fill color. It's often related to the font awesome icon you are using. The color in the example is the Facebook color.
+
+`end-color`: the end-color is the chart background color.
+
 
 # Brower compatibility
 
-TODO
+Chrome: 35
+Safari: 7
