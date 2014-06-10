@@ -1,0 +1,33 @@
+{
+  "name": "angular-font-chart",
+  "version": "0.1.0",
+  "main": "dist/angular-font-chart.js",
+  "license": "MIT",
+  "ignore": [
+    "source",
+    "spec",
+    ".bowerrc",
+    ".gitignore",
+    ".jshintignore",
+    ".jshintrc",
+    "bower.json",
+    "gruntfile.js",
+    "package.json",
+    "README.md"
+  ],
+  "dependencies": {
+    "font-awesome": "4.0.x",
+    "odometer": "0.4.x"
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/bahaaldine/angular-font-chart",
+  "_release": "0.1.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.1.0",
+    "commit": "553354a87d8f225632a27b9033b94a6f72166bf5"
+  },
+  "_source": "git://github.com/bahaaldine/angular-font-chart.git",
+  "_target": "0.1.x",
+  "_originalSource": "angular-font-chart"
+}
