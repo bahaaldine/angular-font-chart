@@ -3,6 +3,15 @@
     "version": "0.1.0",
     "main": "dist/angular-font-chart.js",
     "license": "MIT",
+    "authors": [
+        "Bahaaldine AZARMI <bahaaldine@gmail.com>"
+    ],
+    "description": "angular component that creates chart based on font awesome",
+    "keywords": [
+        "angular",
+        "chart",
+        "font awesome"
+    ],
     "ignore": [
         "source",
         "spec",
