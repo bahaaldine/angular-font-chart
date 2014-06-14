@@ -2,7 +2,6 @@
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
 # Angular Font Chart
-===========
 
 angular-font-chart lets you create awesome charts based on:
 - Font Awesome http://fortawesome.github.io/Font-Awesome/
