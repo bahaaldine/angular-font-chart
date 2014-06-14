@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/bahaaldine/angular-facebook-font.svg?branch=master)](https://travis-ci.org/bahaaldine/angular-facebook-font)
+[![Build Status](https://travis-ci.org/bahaaldine/angular-font-chart.svg?branch=v0.9.4)](https://travis-ci.org/bahaaldine/angular-font-chart)
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
 # Angular Font Chart
