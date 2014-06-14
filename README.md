@@ -1,15 +1,18 @@
-angular-font-chart
+[![Build Status](https://travis-ci.org/bahaaldine/angular-facebook-font.svg?branch=master)](https://travis-ci.org/bahaaldine/angular-facebook-font)
+[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+
+# Angular Font Chart
 ===========
 
 angular-font-chart lets you create awesome charts based on:
 - Font Awesome http://fortawesome.github.io/Font-Awesome/
 - Hubsopt odometer http://github.hubspot.com/odometer/
 
-# Demo page
+## Demo page
 
 http://bahaaldine.github.io/angular-font-chart
 
-# Installation
+## Installation
 
 Install depedencies using bower: 
 ```
@@ -43,7 +46,7 @@ Add ngFontChart module to you application
 	...
 ```
 
-# Usage
+## Usage
 
 All you need is to place a ngFontChart with its attribute in your view like the following piece of code:
 ```javascript
@@ -63,7 +66,7 @@ All you need is to place a ngFontChart with its attribute in your view like the 
 `end-color`: the end-color is the chart background color.
 
 
-# Brower compatibility
+## Brower compatibility
 
 Chrome: 35
 Safari: 7
