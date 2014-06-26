@@ -16,7 +16,7 @@ fc.directive('ngFontChart', function() {
 			endColor: '@',
 			extraClass: '&'
 		},
-		template: '<div><div class="ngfontchart icon background-transition-slow {{font}}"></div><odometer class="value" value="value"></odometer></div>',
+		template: '<div><div class="ngfontchart icon background-transition-slow {{font}}"></div><ng-odometer class="value" value="value"></ng-odometer></div>',
 		link: function(scope, element) {
 			angular.element(element.children()[0]).css('background-position','0px '+scope.value+'%');
 			angular.element(element.children()[0]).css('background-image', 'linear-gradient(to top, '+scope.startColor+' 0px, '+scope.startColor+' 50%, '+scope.endColor+' 50%, '+scope.endColor+' 100% )');
@@ -32,7 +32,7 @@ fc.directive('ngFontChart', function() {
 		}
 	};
 });
-fc.directive('odometer', function () {
+fc.directive('ngOdometer', function () {
   return {
     restrict: 'E',
     scope : {

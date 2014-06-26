@@ -26,7 +26,8 @@
     ],
     "dependencies": {
         "font-awesome": "4.0.x",
-        "odometer": "0.4.x"
+        "odometer": "0.4.x",
+        "angular-odometer": "x.x.x"
     },
     "devDependencies": {
     }
