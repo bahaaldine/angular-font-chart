@@ -1,4 +1,4 @@
-/*! angular-font-chart - v0.9.5 - 2014-06-14
+/*! angular-font-chart - v0.9.12 - 2014-06-27
 * Copyright (c) 2014 ; Licensed  */
 'use strict';
 
@@ -10,7 +10,7 @@ fc.directive('ngFontChart', function() {
 		transclude: true,
 		replace: true,
 		scope:{
-			value: '@',
+			value: '=',
 			font: '@',
 			startColor: '@',
 			endColor: '@',
@@ -21,7 +21,7 @@ fc.directive('ngFontChart', function() {
 			angular.element(element.children()[0]).css('background-position','0px '+scope.value+'%');
 			angular.element(element.children()[0]).css('background-image', 'linear-gradient(to top, '+scope.startColor+' 0px, '+scope.startColor+' 50%, '+scope.endColor+' 50%, '+scope.endColor+' 100% )');
 
-			angular.element(element.children()[1]).css('background', scope.startColor);
+			angular.element(element.children()[1]).css('background', scope.endColor);
 			angular.element(element.children()[1]).css('color', '#ffffff');
 
 			scope.$watch('value', function(value) {
@@ -31,21 +31,4 @@ fc.directive('ngFontChart', function() {
 			});
 		}
 	};
-});
-fc.directive('ngOdometer', function () {
-  return {
-    restrict: 'E',
-    scope : {
-      endValue : '=value'
-    },
-    link: function(scope, element) {
-      var od = new Odometer({
-          el : element[0],
-          value : 0
-      });
-      scope.$watch('endValue', function() {
-        od.update(scope.endValue);
-      });
-    }
-  };
 });
