@@ -25,7 +25,7 @@
         "README.md"
     ],
     "dependencies": {
-        "font-awesome": "4.0.x",
+        "font-awesome": "4.x.x",
         "odometer": "0.4.x",
         "angular-odometer": "x.x.x"
     },
