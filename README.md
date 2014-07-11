@@ -29,7 +29,7 @@ Add js libraries to your application:
 Add css stylesheets to your application:
 ```html
 	<link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css"/>
-    <link rel="stylesheet" href="bower_components/angular-font-chart/dist/css/angular-font-chart.css"/>
+    <link rel="stylesheet" href="bower_components/angular-font-chart/dist/angular-font-chart.min.css"/>
     <link rel="stylesheet" href="bower_components/odometer/themes/odometer-theme-minimal.css"/>
 ```
 
