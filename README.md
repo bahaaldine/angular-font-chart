@@ -51,7 +51,7 @@ All you need is to place a ngFontChart with its attribute in your view like the 
 ```javascript
 	...
 		<ng-font-chart 
-	      font="fa facebook"
+	      font="fa fa-facebook"
 	      value="23"
 	      start-color="#3b5998"
 	      end-color="rgba(255,255,255, 0.8)">
