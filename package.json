@@ -1,7 +1,7 @@
 {
   "name": "angular-font-chart",
   "author": "Bahaaldine AZARMI <bahaaldine@gmail.com>",
-  "version": "0.9.15",
+  "version": "0.9.16",
   "engines": {
     "node": ">= 0.10.0"
   },
