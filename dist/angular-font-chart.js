@@ -1,8 +1,8 @@
-/*! angular-font-chart - v0.9.12 - 2014-06-27
+/*! angular-font-chart - v0.9.16 - 2014-07-12
 * Copyright (c) 2014 ; Licensed  */
 'use strict';
 
-var fc = angular.module('ngFontChart', []);
+var fc = angular.module('ngFontChart', ['ngOdometer']);
 
 fc.directive('ngFontChart', function() {
 	return {
